@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Defines a locked class."""
+"""LockedClass defind here which will use slot attribute"""
 class LockedClass:
     """
-    Prevent the user from instantiating new LockedClass attributes
-    for anything but attributes called 'first_name'.
+    This prevents user from instantiating new LockedClass attributes
+    for anything except the  attributes called 'first_name'.
     """
     __slots__ = ["first_name"]
